@@ -124,7 +124,7 @@ the dataset.)*
         col="orange",
         breaks=50)
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](https://github.com/DipankarBhowmik/Reproducible_Research/blob/master/PA1_template_files/figure-html/unnamed-chunk-4-1.png?raw=true)
 
 1.  Calculate and report the mean and median total number of steps taken
     per day.
@@ -172,7 +172,7 @@ Make a time series plot (i.e. type = "l") of the 5-minute interval
         ylab = "Average Steps Taken ~ Days",
         main = "Average Daily Activity Pattern")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](https://github.com/DipankarBhowmik/Reproducible_Research/blob/master/PA1_template_files/figure-html/unnamed-chunk-6-1.png)
 
 1.  Which 5-minute interval, on average across all the days in the
     dataset, contains the maximum number of steps?
@@ -254,7 +254,7 @@ missing data filled in.
         col="orange",
         breaks=50)
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![](https://github.com/DipankarBhowmik/Reproducible_Research/blob/master/PA1_template_files/figure-html/unnamed-chunk-9-1.png)
 
     #Resetting the panel
     par(mfrow=c(1,1))
@@ -337,7 +337,7 @@ day.
            labs(title = "Ave Daily Steps (type of day)", x = "Interval", y = "Total Number of Steps") +
            facet_wrap(~ typeofday, ncol = 1, nrow=2)
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-12-1.png) 9.
+![](https://github.com/DipankarBhowmik/Reproducible_Research/blob/master/PA1_template_files/figure-html/unnamed-chunk-12-1.png) 9.
 All of the R code needed to reproduce the results (numbers, plots, etc.)
 in the report.
 
